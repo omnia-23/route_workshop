@@ -14,7 +14,6 @@ app.use(cors(corsOptions), (req, res, next) => {
   next();
 });
 
-
 bootstrap(app, express);
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
